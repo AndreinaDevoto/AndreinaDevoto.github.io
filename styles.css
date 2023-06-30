@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  font-family: "Open Sans", sans-serif;
 }
 
 header {
@@ -49,6 +50,18 @@ main {
   font-style: italic;
   color: #9e1bac;
 }
+#space {
+  height: 7vh;
+}
+#title-projects {
+  color: #9e1bac;
+
+  text-align: center;
+  padding: 5vh 0 5vh;
+  font-weight: 300;
+  font-size: 30px;
+  border-top: 4px solid #2f313d;
+}
 #projects {
   display: flex;
   flex-wrap: wrap;
@@ -93,6 +106,7 @@ main {
   text-decoration: none;
   color: #e0e3fa;
 }
+
 .coming-soon-view {
   height: 330px;
   font-size: 80px;
