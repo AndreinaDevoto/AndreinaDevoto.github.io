@@ -93,7 +93,19 @@ main {
   text-decoration: none;
   color: #e0e3fa;
 }
+.coming-soon-view {
+  height: 330px;
+  font-size: 80px;
+  margin: auto;
+  overflow: hidden;
+  z-index: 0;
+  color: #e0e3fa;
+  text-align: center;
+}
 
+.spinner {
+  padding: 80px;
+}
 footer {
   height: 30vh;
   background-color: #2f313d;
