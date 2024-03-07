@@ -199,4 +199,8 @@ footer {
   #name {
     font-size: 20px;
   }
+
+  .contact-icon {
+    display: block;
+  }
 }
