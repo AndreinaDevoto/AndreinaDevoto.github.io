@@ -94,6 +94,7 @@ main {
   overflow: hidden;
   z-index: 0;
 }
+
 .project-foto {
   z-index: 0;
   margin: auto;
@@ -104,6 +105,19 @@ main {
 
 .lateral {
   width: auto;
+}
+
+.project-view:hover .project-foto {
+  height: 40%;
+  width: 100%;
+}
+
+.project-link {
+  text-decoration: none;
+}
+
+.project-description {
+  text-align: justify;
 }
 
 .project-title {
