@@ -24,7 +24,7 @@ nav {
 .link-a {
   text-decoration: none;
   color: #030516;
-  padding-right: 30px;
+  margin-right: 30px;
 }
 main {
   background-color: #030516;
@@ -167,5 +167,36 @@ footer {
   }
   .project-view {
     height: 230px;
+  }
+
+  .coming-soon-view {
+    height: 230px;
+  }
+
+  .contact-icon {
+    padding: 0 20px 0 20px;
+  }
+
+  .lateral {
+    width: 100%;
+  }
+
+  .spinner {
+    width: 100%;
+    padding: 40px 0;
+  }
+
+  nav {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 350px) {
+  .link-a {
+    margin-right: 10px;
+  }
+
+  #name {
+    font-size: 20px;
   }
 }
